@@ -1,0 +1,68 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* otsikko */
+.title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+/* table wrapper (scroll mobiilissa) */
+.tableWrapper {
+  overflow-x: auto;
+  margin-bottom: 24px;
+}
+
+/* table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* header */
+th {
+  text-align: left;
+  padding: 12px;
+  background: #f3f4f6;
+}
+
+/* rivit */
+.row {
+  border-top: 1px solid #e5e7eb;
+}
+
+.row td {
+  padding: 12px;
+}
+
+/* util */
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.small {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* state */
+.error {
+  padding: 16px;
+  color: red;
+}
+
+.loading {
+  padding: 16px;
+}

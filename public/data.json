@@ -1,0 +1,108 @@
+{
+  "leaderboard": [
+    {
+      "name": "Petri Palmu",
+      "points": 18,
+      "rank": 1
+    },
+    {
+      "name": "Mikko Mallikas",
+      "points": 15,
+      "rank": 2
+    }
+  ],
+  "matches": [
+    {
+      "id": 1,
+      "group": "A",
+      "date": "2026-06-11",
+      "home": "Meksiko",
+      "away": "Etelä-Afrikka",
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "finished"
+    },
+    {
+      "id": 2,
+      "group": "A",
+      "date": "2026-06-12",
+      "home": "Etelä-Korea",
+      "away": "Tshekki",
+      "homeScore": 3,
+      "awayScore": 1,
+      "status": "upcoming"
+    },
+    {
+      "id": 3,
+      "group": "A",
+      "date": "2026-06-13",
+      "home": "Saksa",
+      "away": "Ranska",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "upcoming"
+    }
+  ],
+  "predictions": [
+    {
+      "matchId": 1,
+      "player": "Petri Palmu",
+      "homeScore": 2,
+      "awayScore": 0,
+      "points": 6
+    },
+    {
+      "matchId": 1,
+      "player": "Mikko Mallikas",
+      "homeScore": 2,
+      "awayScore": 1,
+      "points": 4
+    },
+    {
+      "matchId": 2,
+      "player": "Petri Palmu",
+      "homeScore": 1,
+      "awayScore": 1,
+      "points": 0
+    },
+    {
+      "matchId": 2,
+      "player": "Mikko Mallikas",
+      "homeScore": 4,
+      "awayScore": 1,
+      "points": 4
+    },
+    {
+      "matchId": 3,
+      "player": "Petri Palmu",
+      "homeScore": 2,
+      "awayScore": 0,
+      "points": null
+    },
+    {
+      "matchId": 3,
+      "player": "Mikko Mallikas",
+      "homeScore": 2,
+      "awayScore": 1,
+      "points": null
+    }
+  ],
+  "tournamentPredictions": [
+    {
+      "player": "Petri Palmu",
+      "winner": "Englanti",
+      "second": "Espanja",
+      "third": "Portugali",
+      "fourth": "Ranska",
+      "topScorer": "Kane"
+    },
+    {
+      "player": "Mikko Mallikas",
+      "winner": "Ranska",
+      "second": "Englanti",
+      "third": "Espanja",
+      "fourth": "Argentiina",
+      "topScorer": "Mbappe"
+    }
+  ]
+}

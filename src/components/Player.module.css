@@ -1,0 +1,93 @@
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* otsikko */
+.title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+/* info (pisteet + sija) */
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.infoItem {
+  font-size: 16px;
+}
+
+.infoItem span {
+  font-weight: 600;
+}
+
+/* kortti */
+.card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* kortin otsikko */
+.cardTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+/* lista */
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* yksittäinen rivi */
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 6px;
+}
+
+/* score */
+.score {
+  font-weight: 600;
+  color: #2563eb;
+}
+
+/* states */
+.error {
+  padding: 16px;
+  color: red;
+}
+
+.loading {
+  padding: 16px;
+}
+
+.tournament {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.topScorer {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.tournament div:first-child {
+  font-weight: bold;
+}

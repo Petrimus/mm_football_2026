@@ -1,0 +1,66 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding: 12px;
+  background: #f3f4f6;
+}
+
+.cell {
+  padding: 12px;
+}
+
+.row {
+  border-top: 1px solid #e5e7eb;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.row:hover {
+  background: #f9fafb;
+}
+
+.right {
+  text-align: right;
+  font-weight: 600;
+}
+
+.error {
+  padding: 16px;
+  color: red;
+}
+
+.loading {
+  padding: 16px;
+}
+
+.testBox {
+  background: red;
+  color: white;
+  padding: 16px;
+  margin-bottom: 16px;
+}
