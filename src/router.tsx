@@ -26,11 +26,15 @@ export const router = createBrowserRouter([
       {
         path: "matches",
         element: <Matches />,
-      },     
+      },
       {
         path: "player/:name",
         element: <Player />,
       },
     ],
   },
-]);
+],
+  {
+    basename: "/mm_football_2026"
+  }
+);
