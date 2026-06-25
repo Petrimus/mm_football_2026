@@ -10,9 +10,13 @@ export const DataProvider = ({ children }: { children: React.ReactNode }) => {
   useEffect(() => {
     let isMounted = true;
 
-    fetch("/data.json")
+    const apiUrl = import.meta.env.VITE_API_URL || "/data.json";
+
+    console.log("React hakee datan osoitteesta:", apiUrl);
+
+    fetch(apiUrl)
       .then((res) => {
-        if (!res.ok) throw new Error("data.json haku epäonnistui");
+        if (!res.ok) throw new Error(`Datan haku epäonnistui osoitteesta: ${apiUrl}`);
         return res.json();
       })
       .then((json) => {
@@ -32,6 +36,10 @@ export const DataProvider = ({ children }: { children: React.ReactNode }) => {
       isMounted = false;
     };
   }, []);
+
+   if (loading) {
+    return <div>Ladataan kisoja...</div>;
+  }
 
   return (
     <DataContext.Provider value={{ data, error }}>
